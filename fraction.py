@@ -88,6 +88,6 @@ class Fraction(object):
 
     def __eq__(self, other):
         return self.nom == other.nom and self.den == other.den
-    def :
-        fracv = fracv.value()
-        return fracv
+
+    def value(self):
+       return self.nom / self.den
